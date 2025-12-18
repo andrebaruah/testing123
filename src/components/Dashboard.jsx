@@ -7,18 +7,18 @@ import './Dashboard.css'
 const Dashboard = () => {
   const metrics = [
     {
-      title: 'Total Revenue',
-      value: '$45,231',
-      change: '+20.1%',
-      trend: 'up',
-      icon: '💰'
-    },
-    {
       title: 'Active Users',
       value: '12,345',
       change: '+15.3%',
       trend: 'up',
       icon: '👥'
+    },
+    {
+      title: 'Total Revenue',
+      value: '$45,231',
+      change: '+20.1%',
+      trend: 'up',
+      icon: '💰'
     },
     {
       title: 'Orders',
